@@ -1,5 +1,5 @@
 {
-  "name": "ai-assistance",
+  "name": "royal-scene-68bf",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,9 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "itty-router": "^3.0.12",
+    "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
   }
 }
