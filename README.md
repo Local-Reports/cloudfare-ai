@@ -7,7 +7,8 @@ Rocco Ahching
 Thuan Luu
 Quincy Ngo
 
-
+All three repositories are part of the final UGA Hacks Submission 
+  
 ## Purpose
 
 Local Reports is a comprehensive platform designed to address the emotional distress experienced by families and friends when their loved ones go missing. Our goal is to provide a centralized space where both law enforcement agencies and concerned individuals can efficiently report missing youths. By facilitating easy access to reporting mechanisms and leveraging community engagement through monetary incentives, we aim to enhance the search efforts for missing individuals. Additionally, we integrated artificial intelligence to improve user interaction, allowing seamless communication in users' preferred languages.
