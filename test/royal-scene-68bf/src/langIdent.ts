@@ -47,6 +47,13 @@ export default {
         }
 
 
-		return Response.json(response);
+        try {
+            const resp = JSON.parse(response.response);
+            return Response.json(resp);
+        } catch {
+            return Response.json({ error: `invalid response from AI! Could not parse to JSON.` }, { status: 400 });
+        }
+
+		
 	},
 };
