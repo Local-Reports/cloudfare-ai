@@ -24,11 +24,12 @@ export default {
     
 
     if (request.method !== 'POST') {
-      return Response.json({test: 'invalid1!'});
+      return Response.json({test: `invalid request type, received ${request.method}!`});
     }
 
-    if (request.headers.get('content-type') !== 'application/json') {
-      return Response.json({test: 'invalid!'});
+	const cType = request.headers.get('content-type')
+    if (cType !== 'application/json') {
+      return Response.json({test: `invalid content-type, received ${cType}!`});
     }
 
     
